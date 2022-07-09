@@ -1,0 +1,11 @@
+---
+  - name: Set up web server in an EC2
+    hosts:  all-ec2
+    user: ubuntu
+    become: true
+    become_method:  sudo
+    become_user:  root
+    roles:
+      - setup
+
+# ansible-playbook main-remote.yml -i inventory --private-key jaf-key.pem

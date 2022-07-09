@@ -14,7 +14,7 @@ commands:
 jobs:
   create_infrastructure: 
       docker:
-        - image: circleci/aws-cli@2.0.3
+        - image: circleci/aws-cli
       steps:
         - checkout
         - run:

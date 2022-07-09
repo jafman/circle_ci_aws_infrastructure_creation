@@ -8,4 +8,5 @@
     roles:
       - setup
 
-# ansible-playbook main-remote.yml -i inventory --private-key jaf-key.pem
+
+# ansible-playbook main-remote.yml -i inventory --private-key jaf-key.pem 
